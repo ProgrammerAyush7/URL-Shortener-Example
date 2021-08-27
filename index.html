@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Smool - Get your Short Url
+{% endblock title %}
+
+{% block content %}
+
+<meta property="og:title" content="Smool - Get your Short Url">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://smool.cf/">
+<meta property="og:description" content="Split your big URL into a small url for free! Even custom links!">
+
+<meta name="yandex-verification" content="0ba16e23801083b6" />
+
+<br>
+
+<h3 align="center" style="color: white;" >
+  Shorten Your <b>Big</b> URL<br>
+  <small>Easy, Fast, Secured</small>
+</h3>
+
+<form action="" method="POST" >
+
+<div class="input-group mb-3" style="margin-left: 10px; margin-right: 10px; width: auto; align:center;" >
+  <input name="link" type="url" class="form-control" placeholder="Your Link" aria-label="Your Link" aria-describedby="basic-addon2" align="center" required>
+  <div class="input-group-append">
+    <button class="btn btn-dark" type="submit">Shorten</button>
+  </div>
+</div>
+
+</form>
+
+{% endblock content %}
